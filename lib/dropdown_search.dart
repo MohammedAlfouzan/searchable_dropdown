@@ -476,7 +476,7 @@ class DropdownSearchState<T> extends State<DropdownSearch<T>> {
         padding: EdgeInsets.symmetric(horizontal: 6, vertical: 3),
         margin: EdgeInsets.symmetric(horizontal: 2),
         decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(25),
+            borderRadius: BorderRadius.circular(20),
             color: Theme.of(context).primaryColorLight),
         child: Text(
           _selectedItemAsString(item),
